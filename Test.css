@@ -2,10 +2,33 @@
     background: rgb(156, 160, 95) ;
     height:60px;
     float: center;
+   border: 1px solid #ccc;
+        border-radius: 5px;
+        margin: 10px 5px;
+        padding: 4px;
+        text-align: center;
+      
 }
+/* .full-card {
+  
+} */
+.cardContent {
+    padding: 10px;
+}
+.links {
+    opacity : 0.7;
+}
+
 .header {
     text-align: center;
+    font-size: 30px;
+    color: rgb(9, 255, 0);
+    text-transform: uppercase;
+    font-weight: 600;
 }
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
 .banner {
     background: lightcoral;
 }
@@ -14,8 +37,37 @@
     width: 180px;
 
 }
+#thumbnail {
+    box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.full-card {
+    background: gray;
+}
+p {
+line-height: 25px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  .row {margin: 0 -5px;}
 
-
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .name {
+      text-align: center;
+  }
+  /* .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  } */
+  
 
 
 /* .topnav {
