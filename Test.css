@@ -46,6 +46,13 @@
 p {
 line-height: 25px;
 }
+a:hover {
+    color: greenyellow;
+}
+a {
+    color: black;
+}
+
 .column {
     float: left;
     width: 25%;
