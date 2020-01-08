@@ -1,21 +1,51 @@
-.Nav-bar {
+/* .Nav-bar {
+    top: 0px;
     background: whitesmoke;
     height:60px;
-    padding: 5px;
-   
-}
+
+   top: 0px;
+   left: ;
+   padding: 10px;
+  
+    width: 960px;
+    margin-left: -10px;
+    line-height:50px;
+    
+} */
+
+
 .header {
+  position: fixed;
+  right: 0;
+  left: 0;
+  min-height: 10em;
+    width: 90%;
     text-align: center;
-    font-size: 30px;
-    color: black;
-    text-transform: uppercase;
-    /* font-weight: 600; */
+    font-size: 40px;
+    color: coral;
     font-family: 'Alex Brush', cursive;
 }
 
-.row {
-
+body {
+    background: green;
 }
+
+.column {
+    /* float: left; */
+    width: 25%;
+    padding: 0 10px;
+    top: 30px;
+  }
+  .card {
+      height: 180px;
+      width: 100px;
+    box-shadow: 0 4px 8px 0 white;
+        padding: 16px;
+        top: 30px;
+        text-align: center;
+       border: yellow;
+       display: block;
+  }
 
 #image {
     width: 60px;
@@ -36,6 +66,9 @@
 .banner {
     background: lightcoral;
 }
+
+ 
+
 /* #size {
     height: 180px;
     width: 180px;
@@ -158,3 +191,6 @@ a {
     }
   }
    */
+
+
+   /* //overflow: visible; The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area. */
