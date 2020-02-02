@@ -2,12 +2,21 @@ html{
   overflow-y: scroll;
       overflow-x: hidden;
 }
+body{
+  background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+   min-width: 100%;
+   min-height: 100%;
+   overflow-y: scroll;
+   overflow-x: hidden; 
+       
+       }
+
+    
+ 
  
 .header {
-  position: relative;
-  right: 0;
-  left: 0;
-  min-height: 1em;
+  padding: 10px 10px;
+  top:0; 
     width: 90%;
     text-align: center;
     font-size: 40px;
@@ -15,27 +24,19 @@ html{
     font-family: 'Alex Brush', cursive;
 }
 
- 
-  
-body{
- background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
-  width: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden; 
-      top: 0;
-      }
-
 
 .box {
 display: grid;
 min-height: 300px;
-  grid-template-columns: 2fr 2fr 2fr;
+margin-top: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr; 
 grid-gap: 20px;
  margin-left: 200px;
   margin-right: 200px;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
+  /* box-sizing: border-box; */
 }
 
 .R1 {
