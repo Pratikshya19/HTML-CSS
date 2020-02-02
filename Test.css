@@ -11,8 +11,6 @@ body{
        
        }
 
-    
- 
  
 .header {
   padding: 10px 10px;
@@ -24,25 +22,37 @@ body{
     font-family: 'Alex Brush', cursive;
 }
 
-
-.box {
-display: grid;
+@media screen and (min-width: 1050px) {
+  #box {
+  display: grid;
 min-height: 300px;
 margin-top: 20px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr; 
 grid-gap: 20px;
- margin-left: 200px;
-  margin-right: 200px;
+ margin-left: 150px;
+  margin-right: 150px;
   justify-content: center;
-  /* position: relative; */
-  /* box-sizing: border-box; */
-}
+} }
+
+@media screen and (max-width: 1050px) {
+  #box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr; 
+grid-gap: 15px;
+  margin-left: 10px;
+  margin-right: 10px; 
+ justify-content: center;
+} }
+
+
+
 
 .R1 {
   background: white;
-  min-height: 350px;
-  min-width: 100px;
+  /* min-height: 350px;
+  min-width: 100px; */
 border: solid 0.5em lightskyblue;
 justify-content: center;
 }
@@ -50,32 +60,32 @@ justify-content: center;
 
 .R2 {
   background: white;
-  min-height: 350px;
-  min-width: 100px;
+  /* min-height: 350px;
+  min-width: 100px; */
 border: solid 0.5em lightpink;
 }
 
 .R3 {
   border: solid 0.5em PaleTurquoise;
   background: white;
-  min-height: 350px;
-  min-width: 100px;
+  /* min-height: 350px;
+  min-width: 100px; */
 background: white;
 }
 
 .R4 {
   border: solid 0.5em #ddcee0;
   background: white;
-  min-height: 350px;
-  min-width: 100px;
+  /* min-height: 350px;
+  min-width: 100px; */
   background: white;
 }
 
 .R5 {
   border: solid 0.5em #f6f3c1;
   background: white;
-  min-height: 350px;
-  min-width: 100px;
+  /* min-height: 350px;
+  min-width: 100px; */
 }
 
 .zodiacname {
@@ -136,7 +146,7 @@ background: white;
 }
 
 .footertag {
-  height: 100px;
+  height: 40px;
   color: rebeccapurple;
   text-align: center;
 margin-top: 35px;
